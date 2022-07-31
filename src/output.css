@@ -809,6 +809,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 300ms;
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .animation-delay-2000{
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
