@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: "/neeloommen.github.io",
+  assetPrefix: "/neeloommen.github.io"
 }
 
 module.exports = nextConfig
