@@ -50,7 +50,7 @@ export default function Home() {
                       <span className="hover:text-yellow-400 transform duration-300"> F1</span>.</div>
                     </div>
                   <div className="flex justify-center items-center md:w-1/2 md:h-screen">
-                  <img src="/images/profile_image.jpg" className="transform w-[300px] md:w-[350px] lg:w-[480px] hover:scale-110  left-4 rounded-xl shadow-2xl duration-300"/>
+                  <img src="/images/profile_image.jpg" className="transform w-[300px] md:w-[350px] lg:w-[480px] hover:scale-110  left-4 rounded-xl shadow-2xl duration-300" alt=""/>
                 </div>
               </div>
             </div>
