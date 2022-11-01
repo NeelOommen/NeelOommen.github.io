@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import customImage from '../components/customImage'
 
 export default function Home() {
   return (
@@ -51,12 +51,7 @@ export default function Home() {
                     </div>
                   <div className="flex justify-center items-center md:w-1/2 md:h-screen">
                   <div className='transform w-[300px] md:w-[350px] lg:w-[480px] hover:scale-110  left-4 rounded-xl shadow-2xl duration-300 overflow-hidden'>
-                    <img
-                    src='../static/images/profile_image.jpg'
-                    alt=""
-                    layout='fill'
-                    objectFit='cover'
-                    />
+                    <customImage key={1} imageSrc={'../static/images/profile_image.jpg'}/>
                   </div>
                 </div>
               </div>
