@@ -37,7 +37,7 @@ export default function Home() {
                   <div className="flex flex-col space-y-4 md:space-y-8 md:w-1/2 md:h-screen px-2 md:px-4 justify-center">
                     <div className="transform left-2 md:left-4 text-white text-7xl md:text-8xl lg:text-9xl font-workSansFont font-bold hover:text-cyan-200 transition duration-300">Hey!</div>
                     <div className="transform left-2 md:left-4 text-2xl md:text-3xl lg:text-4xl text-white">My name is <span className="hover:text-yellow-200 transition duration-300">Neel Ittyerah Oommen!</span></div>
-                    <div className="text-white text-1xl lg:text-2xl">I am currently a 2nd Year Computer Science Student at <span className="transform hover:text-purple-400 duration-300">VIT Vellore.</span></div>
+                    <div className="text-white text-1xl lg:text-2xl">I am currently a 3rd Year Computer Science Student at <span className="transform hover:text-purple-400 duration-300">VIT Vellore.</span></div>
                     <div className="transform left-2 md:left-4 text-1xl md:text-2xl text-white">I like to code (with experience in
                       <span className="hover:text-purple-400 transform duration-300"> C</span>/
                       <span className="hover:text-cyan-400 transform duration-300">C++</span>/
