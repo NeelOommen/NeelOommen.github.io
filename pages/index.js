@@ -51,7 +51,8 @@ export default function Home() {
                     </div>
                   <div className="flex justify-center items-center md:w-1/2 md:h-screen">
                   <div className='transform w-[300px] md:w-[350px] lg:w-[480px] hover:scale-110  left-4 rounded-xl shadow-2xl duration-300 overflow-hidden'>
-                    <CustomImage key={1} imageSrc={'../static/images/profile_image.jpg'}/>
+                    {/* <CustomImage key={1} imageSrc={'../static/images/profile_image.jpg'}/> */}
+                    <img src='../static/images/profile_image.jpg'/>
                   </div>
                 </div>
               </div>
