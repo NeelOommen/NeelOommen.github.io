@@ -1,7 +1,7 @@
 import { useState } from 'react'; 
 import Image from 'next/image';
 
-export default function customImage({ imageSrc }){
+export default function CustomImage({ imageSrc }){
     const [isLoading, setLoading] = useState(true);
 
     return(
