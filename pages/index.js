@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='bg-topSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
+          <div className='bg-topSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover mt-8'></div>
           <div className='bg-bottomSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
 
           {/* Information Section */}
