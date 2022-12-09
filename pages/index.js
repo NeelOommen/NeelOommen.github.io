@@ -61,7 +61,7 @@ export default function Home() {
           </div>
 
           <div className='bg-topSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover mt-8'></div>
-          <div className='bg-bottomSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
+         
 
           {/* Information Section */}
           <div className='relative w-screen bg-gradient-to-t from-yellow-400 via-pink-400 to-purple-400 py-10'>
@@ -82,6 +82,7 @@ export default function Home() {
               <TechLogo imagePath={'../nodeLogo.png'} redirectURL={'https://nodejs.org/en/'}/>
             </div>
           </div>
+          <div className='bg-bottomSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
         </div>
         
       </main>
