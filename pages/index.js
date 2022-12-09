@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import TechLogo from '../components/TechLogo'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -58,19 +60,30 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative h-screen w-screen flex justify-center items-center px-[2vw] snap-center">
-            <div className="absolute w-72 md:w-80 lg:w-96 h-72 md:h-80 lg:h-96 bg-cyan-400    blur-3xl rounded-full mix-blend-lighten animate-bgAnim"></div>
-              <div className="absolute w-72 md:w-80 lg:w-96 h-72 md:h-80 lg:h-96 bg-yellow-400  blur-3xl rounded-full mix-blend-lighten animate-bgAnim animation-delay-2000"></div>
-              <div className="absolute w-72 md:w-80 lg:w-96 h-72 md:h-80 lg:h-96 bg-purple-400  blur-3xl rounded-full mix-blend-lighten animate-bgAnim animation-delay-4000"></div>
-              <div className="absolute w-72 md:w-80 lg:w-96 h-72 md:h-80 lg:h-96 bg-pink-400    blur-3xl rounded-full mix-blend-lighten animate-bgAnim animation-delay-6000"></div>
-            <div className="text-white px-4 font-bold text-3xl md:text-5xl lg:text-7xl transform duration-300">
-              More about me coming soon!
+          <div className='bg-topSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
+          <div className='bg-bottomSVG aspect-svgTransitions w-full bg-center bg-no-repeat bg-cover'></div>
+
+          {/* Information Section */}
+          <div className='relative w-screen bg-gradient-to-t from-yellow-400 via-pink-400 to-purple-400 py-10'>
+            <div className="transform left-2 md:left-4 text-white text-4xl md:text-5xl lg:text-6xl font-workSansFont pl-5 pt-5 font-bold hover:text-cyan-200 transition duration-300">Technologies & Courses</div>
+            {/* Scroll Section */}
+            <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
+              <TechLogo imagePath={'../cppLogo.png'} redirectURL={'https://cplusplus.com/'}/>
+              <TechLogo imagePath={'../cLogo.png'} redirectURL={'https://www.w3schools.com/c/c_intro.php'}/>
+              <TechLogo imagePath={'../javaLogo.png'} redirectURL={'https://www.java.com/en/'}/>
+              <TechLogo imagePath={'../javaScriptLogo.png'} redirectURL={'https://www.javascript.com/'}/>
+              <TechLogo imagePath={'../pythonLogo.png'} redirectURL={'https://www.python.org/'}/>
+              <TechLogo imagePath={'../postgresLogo.png'} redirectURL={'https://www.postgresql.org/'}/>
+              <TechLogo imagePath={'../mysqlLogo.png'} redirectURL={'https://www.mysql.com/'}/>
+              <TechLogo imagePath={'../htmlLogo.png'} redirectURL={'https://developer.mozilla.org/en-US/docs/Web/HTML'}/>
+              <TechLogo imagePath={'../cssLogo.png'} redirectURL={'https://developer.mozilla.org/en-US/docs/Web/CSS'}/>
+              <TechLogo imagePath={'../tailwindLogo.png'} redirectURL={'https://tailwindcss.com/'}/>
+              <TechLogo imagePath={'../expressLogo.png'} redirectURL={'https://expressjs.com/'}/>
+              <TechLogo imagePath={'../nodeLogo.png'} redirectURL={'https://nodejs.org/en/'}/>
             </div>
           </div>
         </div>
-        <div className="w-full h-full bg-pink-800">
-
-        </div>
+        
       </main>
 
     </div>

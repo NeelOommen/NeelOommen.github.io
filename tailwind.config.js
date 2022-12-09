@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      aspectRatio:{
+        'svgTransitions': '960/150',
+      },
+      backgroundImage:{
+        'topSVG': 'url(../public/topSVG.svg)',
+        'bottomSVG': 'url(../public/bottomSVG.svg)'
+      },
       animation:{
         bgAnim: "bgKf 8s infinite",
         squareBgAnim: "sqBgKf 8s infinite",
